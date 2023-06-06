@@ -1,0 +1,61 @@
+body {
+    background-color: green;
+    margin: 0;
+}
+
+.main-container {
+   
+}
+
+nav {
+    background: white;
+    color: black; 
+    height: 100px;
+    margin: 0;
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav-logo {
+    flex: 1;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.nav-menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav-list {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    list-style-type: none;
+    height: 100%;
+}
+
+.nav-list li {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list p {
+    width: 70%;
+    height: 30px;
+    transition: 0.3s;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav-list p:hover {
+    background: black;
+    color: white;
+    opacity: 1
+}
+
+
