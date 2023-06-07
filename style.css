@@ -1,0 +1,86 @@
+body {
+    background-color: green;
+    margin: 0;
+}
+
+.main-container {
+   display: flex;
+   flex-direction: column;
+}
+/* Menu STYLES */
+
+nav {
+    background: white;
+    color: black; 
+    height: 100px;
+    margin: 0;
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav-logo {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 150px;
+    padding: 1.4rem;
+}
+
+.nav-menu {
+    width: 70%;
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav-list {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    list-style-type: none;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.nav-list li {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list p {
+    width: 60%;
+    height: 40px;
+    transition: 0.3s;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.nav-list p:hover {
+    background: black;
+    color: white;
+    opacity: 1
+}
+
+
+/* HERO STYLES */
+
+.hero {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-info-box {
+    padding-top: 100px;
+    border-left: 10px solid black;
+    margin-left: 50px;
+}
+
+.hero-info-box p {
+    padding: 20px;
+}
