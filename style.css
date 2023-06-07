@@ -16,6 +16,7 @@ nav {
     margin: 0;
     display: flex;
     flex-direction: row; 
+    border-bottom: 2px solid black;
 }
 
 .nav-logo {
@@ -70,17 +71,37 @@ nav {
 /* HERO STYLES */
 
 .hero {
-    background-color: red;
+    background-color: yellow;
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-info-container {
+    margin-left: 2rem;
 }
 
 .hero-info-box {
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid blue;
     border-left: 10px solid black;
-    margin-left: 50px;
 }
 
 .hero-info-box p {
-    padding: 20px;
+    padding-left: 1rem;
+}
+
+.hero-title-one {
+    font-size: 1.2rem;
+}
+
+.hero-title {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 800;
 }
